@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+header nav{
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 24px 400px;
+}
+
+.logo {
+    font-weight: 900;
+    border-right: 2px solid black;
+    padding-right: 8px;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+
+
+.listlink {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 16px 50px;
+    border-radius: 8px;
+}
+
+.btnlink {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.hero {
+    padding: 100px;
+}
+
+.hero h1 {
+    font-weight: 1000;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+
+.firstpara {
+    font-size: 1em;
+    padding-top: 24px;
+}
+
+.btn1 {
+    background-color: black;
+    color: white;
+    padding: 12px 34px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.herolink {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 24px;
+}
+
+.section2 {
+    margin-top: 50px;
+    display: flex;
+}
+
+.smallpara {
+    margin-top: 25px;
+    font-size: 0.8em;
+    padding-top: 24px;
+    color: rgb(116, 116, 116);
+}
+
+
+.boder {
+    border: 1px solid rgb(23, 23, 23);
+    border-bottom: 0;
+    border-radius: 10px;
+    width: 280px;
+    height: 260px;
+}
+
+.box {
+    background-color: rgb(191, 191, 191);
+    border-radius: 10px;
+    margin: 18px;
+    width: 250px;
+    height: 240px;
+}
+
+.myimg {
+    width: 240px;
+    height: 240px;
+}
+
+.labelicon {
+    width: 14px;
+    height: 14px;
+}
+
+.labels {
+    background-color: rgb(151, 151, 151);
+    border-radius: 10px;
+}
+
+.label1 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
